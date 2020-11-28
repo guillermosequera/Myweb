@@ -1,0 +1,22 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19px;
+    line-height: 1.8em;
+    overflow-x: hidden;
+}
+
+.tm-mb-0 { margin-bottom: 0; }
+.tm-mb-15 { margin-bottom: 15px; }
+.tm-color-primary { color: #309AFD; }
+.tm-color-gray { color: #666768; }
+.tm-color-gray-2 { color: #98999A; }
+.tm-color-light-gray { color: #9E9FA0; }
+
+.tm-site-header {
+    padding: 60px 70px 30px;
+}
+
+.tm-tagline {
+    font-size: 1.5rem;   
+    margin-left: 130px;
+}
