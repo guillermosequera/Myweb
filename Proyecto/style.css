@@ -1,5 +1,4 @@
 body {
-    background-color: #333;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 19px;
     line-height: 1.8em;
@@ -12,10 +11,6 @@ body {
 .tm-color-gray { color: #666768; }
 .tm-color-gray-2 { color: #98999A; }
 .tm-color-light-gray { color: #9E9FA0; }
-.tm-bg-gray { background-color: #F1F2F3; }
-.tm-bg-white { background-color: #FFF; }
-img { max-width: 100%; }
-.tm-page-title { font-size: 30px; }
 
 .tm-site-header {
     padding: 60px 70px 30px;
@@ -88,110 +83,8 @@ img { max-width: 100%; }
     color: #309AFD;
 }
 
-.tm-row {
-    display: flex;
-}
-
-.mfp-move-from-top .mfp-with-anim {
-    opacity: 0; 
+.mfp-move-from-top {
     opacity: 0;
     transition: all 0.2s;
     transform: translateY(-100px);
-}
-
-.tm-close-popup {
-    text-align: right;
-    display: block;
-}
-
-.tm-close-popup i {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.tm-intro-pad {
-    padding: 40px 55px 50px; 
-}
-
-.tm-col-6 {
-    flex: 0 0 50%;
-}
-
-.tm-intro-col-l {
-    margin-right: 40px;
-}
-
-.popup {
-    position: relative;
-    padding: 12px 10px 35px;
-    width:auto;
-    max-width: 1200px;
-    margin: 0 auto; 
-}
-
-/* Sobre mi */
-.tm-intro-img {
-    max-width: 400px;
-    max-height: 800px;
-}
-
-/* Proyectos */
-#gallery {
-    margin-top: 30px;
-}
-
-.tm-gallery {
-    flex: 0 0 68%;
-    margin: 0 100px;
-}
-
-.tm-gallery-container {
-    position: relative;    
-    max-width: 800px;
-    margin: 0 -10px;
-	list-style: none;
-    text-align: center;
-}
-
-.tm-gallery-item {
-    /* overflow: hidden; */
-    display: flex;
-    flex-wrap: wrap;
-/*  margin: 15px 10px;
-    min-width: 180px;
-    max-width: 180px;
-    max-height: 240px;
-    width: 25%;
-    background: #3085a3;
-    text-align: center;
-    cursor: pointer; */
-    margin:auto;
-    /* margin-left: auto;
-    margin-right: auto; */
-}
-
-@media (max-width: 650px) {
-    .tm-intro-row {
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 805px) {
-    .tm-gallery-row {
-        flex-direction: column-reverse;
-    }
-    .tm-gallery {
-        flex: 0 0 100%;
-    }
-}
-
-/* Referencias */
-.tm-testimonials-inner {
-    padding: 0 20px 30px;
-}
-
-.tm-testimonial-col {
-    flex: 0 0 33.3334%;
-    padding-left: 20px;
-    padding-right: 20px;
 }
