@@ -6,8 +6,41 @@ body {
     /* overflow-x: hidden; */
 }
 
+p, span, em, a, address { color: #848586; }
+h2, p {
+    margin-top: 0;
+}
+
+a:hover, a.active { color: #309AFD; }
+
+.tm-btn {
+    padding: 10px 40px;
+    color: white;
+    background-color: #3299CD;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+button.tm-btn {
+    padding: 15px 40px;
+}
+
+.tm-btn:hover {
+    color: white;
+    background-color: #49b4e9;
+}
+
+h1 { font-size: 3rem; }
+em { display: block; }
+div { box-sizing: border-box;}
 .tm-mb-0 { margin-bottom: 0; }
 .tm-mb-15 { margin-bottom: 15px; }
+.tm-mb-30 { margin-bottom: 30px; }
+.tm-mb-50 { margin-bottom: 50px; }
+.tm-text-center { text-align: center; }
 .tm-color-primary { color: #309AFD; }
 .tm-color-gray { color: #666768; }
 .tm-color-gray-2 { color: #98999A; }
@@ -16,6 +49,11 @@ body {
 .tm-bg-white { background-color: #FFF; }
 img { max-width: 100%; }
 .tm-page-title { font-size: 30px; }
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
 
 .tm-site-header {
     padding: 60px 70px 30px;
@@ -185,13 +223,62 @@ img { max-width: 100%; }
     }
 }
 
-/* Referencias */
-.tm-testimonials-inner {
-    padding: 0 20px 30px;
+
+/* About */
+.mapouter{
+    position:relative;
+    height:250px;
+    width:100%;
 }
 
-.tm-testimonial-col {
-    flex: 0 0 33.3334%;
-    padding-left: 20px;
-    padding-right: 20px;
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:250px;
+    width:100%;
+}
+.tm-contact-row {
+    max-width: 1045px;
+}
+.tm-about-col {
+    margin-left: 40px;
+    margin-right: 40px;
+    max-width: 500px;
+}
+
+@media (max-width: 700px) {
+    .tm-about-row {
+        flex-direction: column;
+    }
+    .tm-about-col {
+        flex: 0 0 100%;
+    }
+}
+
+
+
+
+
+@media (max-width: 1264px) {
+    .tm-main-nav ul { 
+        max-width: 976px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .tm-main-nav ul {
+        max-width: 732px;
+    }
+}
+
+@media (max-width: 776px) {
+    .tm-main-nav ul {
+        max-width: 488px;        
+    }
+}
+
+@media (max-width: 532px) {
+    .tm-main-nav ul { 
+        max-width: 244px;
+    }
 }
