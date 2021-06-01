@@ -62,6 +62,17 @@ body, ul {
     padding: 0;
 }
 
+.paraone {
+    animation: bounce;
+    animation-duration: 3s;
+}
+
+.paratwo {
+    animation: bounce;
+    animation-duration: 3s;
+
+}
+
 a { 
     text-decoration: none; 
     transition: all 0.3s ease;
@@ -213,8 +224,8 @@ button.mfp-arrow {
 
 /* Sobre Mi */
 .tm-intro-img {
-    max-width: 300px;
-    max-height: 600px;
+    max-width: 400px;
+    max-height: 700px;
 }
 
 /* Proyectos */

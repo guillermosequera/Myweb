@@ -257,11 +257,19 @@ $(document).ready(function () {
         var img = 'img/';
 
         if(window.innerWidth > 650) {
-            img += 'intro.jpg';
+            img += 'enlaPC.jpg';
         } else {
             img += 'intro-big.jpg';
         }
 
         $('.tm-intro-img').attr('src', img);
     }
+});
+
+Qualtrics.SurveyEngine.addOnReady (function ()
+{
+var delayTime = 4000 // Este es el tiempo de retraso
+var that = this;
+setTimeout (function () {that.getparatwo (). Show ()}, delayTime);
+
 });
